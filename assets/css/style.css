@@ -105,12 +105,12 @@ footer {
         padding-right :1rem;
     }
 
-    #menu{
+    #menu {
         display: flex;
     }
 
-    #menu >li{
-        padding-left: 1 rem;
+    #menu >li {
+        padding-left: 1rem;
     }
     .nav-toggle-label{
         display: none;
