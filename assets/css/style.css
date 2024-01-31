@@ -2,11 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@200..700&display=swap');
 
 
-* {}
-
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /*general styles*/
@@ -14,12 +13,21 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a font-family:'Lato', sans-serif;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /*Header*/
 header {
-    background-color: orange;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
 
 /*main content*/
