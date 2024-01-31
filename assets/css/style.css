@@ -48,8 +48,8 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
-    margin-bottom: 1rem;
+#menu > li {
+    margin-bottom: 1em;
 }
 
 .active {
@@ -69,8 +69,12 @@ nav {
 }
 
 /*Nav toggle*/
-#nav-toggle:checked-nav {
+#nav-toggle:checked~nav {
     display: block;
+}
+
+#nav-toggle{
+    display: none;
 }
 
 .nav-toggle-label {
