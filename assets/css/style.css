@@ -48,7 +48,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -73,7 +73,7 @@ nav {
     display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
@@ -84,63 +84,73 @@ nav {
 /*main content*/
 
 main {
-    background-color: lightblue;
+
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
+/*Hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
+
 /*footer*/
-#social-networks{
+#social-networks {
     text-align: center;
-    padding:20px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
-#social-networks i{
+#social-networks i {
     font-size: 160%;
     padding: 5%;
-    color:#3a3a3a
+    color: #3a3a3a
 }
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width : 768px) {
+
     /*Head*/
-    nav{
-        display:block;
-        position:relative;
+    nav {
+        display: block;
+        position: relative;
         box-shadow: none;
-        width:fit-content;
-        padding-right :1rem;
+        width: fit-content;
+        padding-right: 1rem;
     }
 
     #menu {
         display: flex;
     }
 
-    #menu >li {
+    #menu>li {
         padding-left: 1rem;
     }
-    .nav-toggle-label{
+
+    .nav-toggle-label {
         display: none;
     }
-    #logo{
+
+    #logo {
         font-size: 200%;
         line-height: 75px;
         margin: 0.05rem;
     }
 
-    main{
+    main {
         /*push main content to accomodate larger header*/
         margin-top: 79px;
     }
-    
-} 
+
+}
 
 /*Media query: laptops and desktops (992px and up)*/
 @media screen and (min-width : 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
