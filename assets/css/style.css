@@ -150,6 +150,13 @@ main {
   justify-content: center;
 }
 
+/* Meetup Times section */
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*footer*/
 #social-networks {
   text-align: center;
