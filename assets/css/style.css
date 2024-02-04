@@ -13,13 +13,11 @@ body {
   display: flex;
   flex-direction: column;
   color: #3a3a3a;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Oswald", sans-serif;
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
@@ -322,6 +320,10 @@ main {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
+
+   #photos {
+       column-count: 4;
+   }
 }
 
 @media screen and (min-width: 1200px) {
